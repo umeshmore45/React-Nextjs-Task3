@@ -1,6 +1,7 @@
 .flex-container {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -26,4 +27,27 @@
 
 .copy {
   text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .flex-container {
+    margin-top: 15%;
+    flex-direction: column;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+
+  .link-1 {
+    width: 100%;
+  }
+
+  .link-2 {
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+  }
 }
