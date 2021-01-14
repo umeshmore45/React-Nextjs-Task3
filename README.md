@@ -1,22 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Company Website: Server Side Rendering Using Next.Js
+
+![alt text](https://raw.githubusercontent.com/umeshmore45/Timer-Application/master/img/logo.png)
+
+
+## Features
+
+- This application renders three pages for the following companies
+
+   1.Surfboard Ventures
+   
+   2.Raw Engineering
+   
+   3.Contentstack
+
+- This Application Render Data From Headless CMS  [ContentStack](https://www.contentstack.com/)
+
+- For Data Fetching [ContenStack](https://www.contentstack.com/docs/developers/javascript-browser/api-reference/) SDK Used 
+
+- Hosted On [Vertcel](https://vercel.com/)
 
 ## Getting Started
 
-First, run the development server:
+![alt text](https://media.giphy.com/media/11BbGyhVmk4iLS/giphy.gif)
 
-```bash
+
+## Clone project
+
+```
+git clone umeshmore45/React-Nextjs-Task3
+```
+## Install Dependency
+
+```
+npm install
+```
+or 
+```
+yarn install
+```
+
+## Run Application
+
+```
 npm run dev
-# or
+```
+or
+```
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Learn More
 
@@ -32,3 +65,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## SnapShot
+
+
+![alt text](https://raw.githubusercontent.com/umeshmore45/files/master/Screenshot%20from%202021-01-15%2000-48-22.png)
+
+
+## Demo Link
+
+ [Demo](https://react-nextjs-task3-git-master.umeshmore45.vercel.app/)
+
+
+## Contact Me
+[Twitter](https://twitter.com/Iamdvirus45)
