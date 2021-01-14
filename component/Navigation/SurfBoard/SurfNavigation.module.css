@@ -1,0 +1,37 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  width: 50%;
+}
+
+.img-cont {
+  margin-top: 2%;
+}
+
+.li {
+  display: inline;
+  margin-left: 5%;
+}
+
+.li-but {
+  border-radius: 23px;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 15px 5%;
+  margin: 2%;
+  color: #fff;
+  transition: all 0.2s linear;
+  display: inline-block;
+  font-weight: 500;
+  color: white;
+  background-color: #0069d9;
+  border-color: #0069d9;
+  margin-left: 5%;
+}

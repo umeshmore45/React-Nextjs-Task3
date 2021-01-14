@@ -1,0 +1,29 @@
+.flex-container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.image-container {
+  width: 25%;
+}
+
+.li {
+  list-style-type: none;
+}
+
+.link-1 {
+  width: 25%;
+}
+
+.link-2 {
+  width: 25%;
+}
+
+.logo {
+  width: 25%;
+}
+
+.copy {
+  text-align: center;
+}

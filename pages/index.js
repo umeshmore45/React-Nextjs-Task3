@@ -2,17 +2,19 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import SurfComponent from "../component/SurfCom";
-
 import contentstack from "contentstack";
 import { useState } from "react";
+import SurfBoard from "../component/Navigation/SurfBoard/SurfNavigation";
+import SurfFooter from "../component/Footer/SurfBoard/SurfFooter";
 
 export default function Home(props) {
   return (
     <div className={styles["container"]}>
-      <h1>Surfboard</h1>
+      <SurfBoard />
       {props.employee.map((emp) => {
         return <SurfComponent key={emp.uid} {...emp} />;
       })}
+      <SurfFooter />
     </div>
   );
 }
