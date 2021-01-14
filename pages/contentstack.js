@@ -1,11 +1,13 @@
 import Link from "next/link";
 import styles from "../styles/contentstack.module.css";
 import contentstack from "contentstack";
+import ContentNav from "../component/Navigation/ContentStack/ContentNav";
 
 function ContentStack(props) {
   let { pages } = props;
   return (
     <div className={styles["content-head"]}>
+      <ContentNav />
       <div className={styles["content-row"]}>
         <h1 className={styles["head"]}>{pages[0].heading}</h1>
         <p className={styles["para"]}>{pages[0].sub_heading}</p>
