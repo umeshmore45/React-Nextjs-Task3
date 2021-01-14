@@ -1,0 +1,63 @@
+.content-head {
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  height: 102vh;
+  background-image: url("https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt66f4449fa1b24162/5f1a2be22ac1577a44a8bfd7/hero-carousel-3.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.button {
+  margin-top: 3%;
+  transition: 0.4s cubic-bezier(0.335, 0.815, 0.47, 1);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 3px;
+  background: #eb5646;
+  background-image: none;
+  color: #fff;
+  padding: 0 30px;
+  line-height: 2.5;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  text-align: center;
+  font-size: 14px;
+  outline: none;
+  border: 3px solid transparent;
+  white-space: nowrap;
+}
+
+.head {
+  margin: 0 auto;
+  margin-top: 15%;
+  font-size: 8vh;
+  width: 50%;
+}
+
+.para {
+  font-size: 4vh;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.link {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px 0;
+  color: #eb5646;
+}
+.link:hover {
+  color: #fff;
+}
