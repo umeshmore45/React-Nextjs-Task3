@@ -45,3 +45,12 @@
   white-space: nowrap;
   margin-left: 4%;
 }
+
+@media (max-width: 767.98px) {
+  .nav-flex {
+    width: 100%;
+  }
+  .nav-link {
+    display: none;
+  }
+}

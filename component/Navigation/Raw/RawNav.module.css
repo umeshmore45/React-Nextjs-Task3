@@ -37,3 +37,13 @@
   border-color: #0069d9;
   margin-left: 4%;
 }
+
+@media (max-width: 767.98px) {
+  .nav-conatiner {
+    margin-bottom: 30%;
+  }
+
+  .nav-link {
+    display: none;
+  }
+}

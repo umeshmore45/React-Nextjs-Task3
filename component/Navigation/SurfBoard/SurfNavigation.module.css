@@ -35,3 +35,9 @@
   border-color: #0069d9;
   margin-left: 5%;
 }
+
+@media (max-width: 767.98px) {
+  .navigation {
+    display: none;
+  }
+}

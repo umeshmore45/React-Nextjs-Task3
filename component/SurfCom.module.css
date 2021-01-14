@@ -49,3 +49,20 @@
   display: block;
   left: 0;
 }
+
+@media (max-width: 767.98px) {
+  .container {
+    margin-top: 80%;
+  }
+
+  .flex-container {
+    margin-top: 0%;
+    flex-direction: column;
+  }
+  .content-container {
+    width: 100%;
+  }
+  .image-container {
+    width: 100%;
+  }
+}
