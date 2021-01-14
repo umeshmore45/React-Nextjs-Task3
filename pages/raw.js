@@ -4,12 +4,17 @@ import styles from "../styles/raw.module.css";
 import contentstack from "contentstack";
 import RawNav from "../component/Navigation/Raw/RawNav";
 import RawFooter from "../component/Footer/Raw/RawFooter";
+import Head from "next/head";
 
 function Raw(props) {
   let { pages } = props;
 
   return (
     <div>
+      <Head>
+        <title>Raw Engeering</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div>
         <RawNav />
       </div>

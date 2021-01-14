@@ -10,6 +10,10 @@ import SurfFooter from "../component/Footer/SurfBoard/SurfFooter";
 export default function Home(props) {
   return (
     <div className={styles["container"]}>
+      <Head>
+        <title>Surfboard Ventures</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <SurfBoard />
       {props.employee.map((emp) => {
         return <SurfComponent key={emp.uid} {...emp} />;
