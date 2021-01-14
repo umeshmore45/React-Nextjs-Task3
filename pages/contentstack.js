@@ -3,11 +3,16 @@ import styles from "../styles/contentstack.module.css";
 import contentstack from "contentstack";
 import ContentNav from "../component/Navigation/ContentStack/ContentNav";
 import ContentFooter from "../component/Footer/ContentStack/ContentFooter";
+import Head from "next/head";
 
 function ContentStack(props) {
   let { pages } = props;
   return (
     <div className={styles["content-head"]}>
+      <Head>
+        <title>Content Managment</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <ContentNav />
       <div className={styles["content-row"]}>
         <h1 className={styles["head"]}>{pages[0].heading}</h1>
