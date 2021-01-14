@@ -17,7 +17,7 @@
 
 - For Data Fetching [ContenStack](https://www.contentstack.com/docs/developers/javascript-browser/api-reference/) SDK Used 
 
-- Hosted On [Vertcel](https://vercel.com/)
+- Hosted On [Vercel](https://vercel.com/)
 
 ## Getting Started
 
