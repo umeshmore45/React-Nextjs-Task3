@@ -61,3 +61,19 @@
 .link:hover {
   color: #fff;
 }
+
+@media (max-width: 767.98px) {
+  .content-head {
+    background-image: none;
+    background-color: #2d2657;
+  }
+  .head {
+    width: 100%;
+    font-size: 3vh;
+  }
+
+  .para {
+    width: 100%;
+    font-size: 2vh;
+  }
+}
