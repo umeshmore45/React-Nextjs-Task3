@@ -1,0 +1,22 @@
+.flex {
+  color: black;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  color: black;
+  margin: 0 auto;
+  width: 20%;
+  height: 20%;
+}
+
+.logo {
+  margin-top: 4%;
+}
+
+.logo-m {
+  margin-left: 3%;
+}

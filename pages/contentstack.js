@@ -2,6 +2,7 @@ import Link from "next/link";
 import styles from "../styles/contentstack.module.css";
 import contentstack from "contentstack";
 import ContentNav from "../component/Navigation/ContentStack/ContentNav";
+import ContentFooter from "../component/Footer/ContentStack/ContentFooter";
 
 function ContentStack(props) {
   let { pages } = props;
@@ -14,6 +15,7 @@ function ContentStack(props) {
         <button className={styles["button"]}>TRY FOR FREE</button>
         <p className={styles["link"]}>Request a Demo</p>
       </div>
+      <ContentFooter />
     </div>
   );
 }
