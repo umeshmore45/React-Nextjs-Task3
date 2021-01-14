@@ -2,13 +2,16 @@ import Link from "next/link";
 import RawComponent from "../component/raw/RawComponent";
 import styles from "../styles/raw.module.css";
 import contentstack from "contentstack";
+import RawNav from "../component/Navigation/Raw/RawNav";
 
 function Raw(props) {
   let { pages } = props;
 
   return (
     <div>
-      <div className={styles["h"]}>Header</div>
+      <div>
+        <RawNav />
+      </div>
       <div className={styles["header"]}>
         <div className={styles["header-content"]}>
           <h1 className={styles["header-h1"]}>{pages[0].heading}</h1>
