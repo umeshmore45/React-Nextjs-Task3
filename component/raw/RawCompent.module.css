@@ -1,0 +1,33 @@
+.raw-flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  text-align: center;
+  margin: 5% auto;
+}
+
+.media-container {
+  width: 50%;
+}
+
+.content-container {
+  width: 50%;
+}
+
+.img {
+  width: 100%;
+}
+
+.head {
+  font-size: 6vh;
+  text-align: justify;
+  width: 60%;
+  margin-top: 20%;
+  margin-left: 3%;
+}
+
+.para {
+  width: 60%;
+  text-align: justify;
+  margin-left: 20%;
+}

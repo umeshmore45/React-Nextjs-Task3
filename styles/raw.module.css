@@ -46,3 +46,33 @@
   margin-left: 26%;
   position: relative;
 }
+
+.side {
+  text-align: center;
+}
+
+.side-text {
+  font-size: 3vh;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 8%;
+}
+
+.side-button {
+  border-radius: 23px;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 15px 5%;
+  margin: 2%;
+  color: #fff;
+  transition: all 0.2s linear;
+  display: inline-block;
+  font-weight: 500;
+  color: white;
+  background-color: #0069d9;
+  border-color: #0069d9;
+}

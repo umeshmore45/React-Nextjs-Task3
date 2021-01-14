@@ -1,4 +1,5 @@
 import Link from "next/link";
+import RawComponent from "../component/raw/RawComponent";
 import styles from "../styles/raw.module.css";
 function Raw(props) {
   return (
@@ -23,6 +24,18 @@ function Raw(props) {
           />
         </div>
       </div>
+      <div className={styles["side"]}>
+        <p className={styles["side-text"]}>
+          Raw Engineering is an Innovative Digital Solutions company providing
+          Digital Transformation Strategy and Custom Development Services. We
+          partner with the world’s best Fortune 500 Enterprises and Startups to
+          deliver Headless CMS Strategy & Implementation, Mobile Apps, Websites,
+          SaaS Products, Cloud Strategy, DevOps and SRE Solutions.
+        </p>
+        <button className={styles["side-button"]}>Learn More</button>
+        <hr />
+      </div>
+      <RawComponent className={styles["RawCpm"]} />
     </div>
   );
 }

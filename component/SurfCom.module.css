@@ -27,15 +27,22 @@
 }
 
 .button {
-  border: 2px solid #17a2b8;
-  background-color: #17a2b8;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+  border-radius: 23px;
   text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 15px 5%;
+  margin: 2%;
+  color: #fff;
+  transition: all 0.2s linear;
   display: inline-block;
-  font-size: 16px;
-  border-radius: 30%;
+  font-weight: 500;
+  color: white;
+  background-color: #0069d9;
+  border-color: #0069d9;
 }
 
 .icons {
