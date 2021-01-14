@@ -3,6 +3,7 @@ import RawComponent from "../component/raw/RawComponent";
 import styles from "../styles/raw.module.css";
 import contentstack from "contentstack";
 import RawNav from "../component/Navigation/Raw/RawNav";
+import RawFooter from "../component/Footer/Raw/RawFooter";
 
 function Raw(props) {
   let { pages } = props;
@@ -30,10 +31,11 @@ function Raw(props) {
         <button className={styles["side-button"]}>Learn More</button>
         <hr />
       </div>
-      <h1>WHAT WE DO</h1>
+      <h1>--WHAT WE DO</h1>
       {props.component.map((cpm) => {
         return <RawComponent key={cpm.uid} {...cpm} />;
       })}
+      <RawFooter />
     </div>
   );
 }
